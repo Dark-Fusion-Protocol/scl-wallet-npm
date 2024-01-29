@@ -1,2 +1,3 @@
-# scl-wallet-npm
+# scl-wallet
+
 SCL Wallet NPM Package
