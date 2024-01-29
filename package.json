@@ -1,0 +1,23 @@
+{
+  "name": "@dark-fusion-protocol/scl-wallet",
+  "version": "0.0.1",
+  "description": "SCL NPM Package",
+  "main": "scl_wallet.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dark-Fusion-Protocol/scl-wallet-npm.git"
+  },
+  "keywords": [
+    "SCL"
+  ],
+  "author": "Dark Fusion Protocol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dark-Fusion-Protocol/scl-wallet-npm/issues"
+  },
+  "homepage": "https://github.com/Dark-Fusion-Protocol/scl-wallet-npm#readme"
+}
