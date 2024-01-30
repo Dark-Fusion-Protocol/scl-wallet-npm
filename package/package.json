@@ -1,6 +1,6 @@
 {
   "name": "@dark-fusion-protocol/scl-wallet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SCL NPM Package",
   "main": "scl_wallet.js",
   "type": "module",
@@ -12,7 +12,12 @@
     "url": "git+https://github.com/Dark-Fusion-Protocol/scl-wallet-npm.git"
   },
   "keywords": [
-    "SCL"
+    "SCL",
+    "BTC",
+    "web3",
+    "wallet",
+    "dark-fusion-protocol",
+    "dark-fusion"
   ],
   "author": "Dark Fusion Protocol",
   "license": "ISC",

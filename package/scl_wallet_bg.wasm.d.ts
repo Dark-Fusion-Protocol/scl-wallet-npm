@@ -56,10 +56,10 @@ export function rustsecp256k1_v0_6_1_default_error_callback_fn(a: number, b: num
 export function __wbindgen_malloc(a: number, b: number): number;
 export function __wbindgen_realloc(a: number, b: number, c: number, d: number): number;
 export const __wbindgen_export_2: WebAssembly.Table;
-export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hda0301f9e7e2f244(a: number, b: number, c: number): void;
-export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h77016a0ed602ea9d(a: number, b: number, c: number): void;
-export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h6be1c1248132ad38(a: number, b: number, c: number): void;
+export function wasm_bindgen__convert__closures__invoke1_mut__h5c8e6b3721a8f1a4(a: number, b: number, c: number): void;
+export function _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h40421b7b1a0c6304(a: number, b: number, c: number): void;
+export function wasm_bindgen__convert__closures__invoke1_mut__h52e1584958bda594(a: number, b: number, c: number): void;
 export function __wbindgen_add_to_stack_pointer(a: number): number;
 export function __wbindgen_free(a: number, b: number, c: number): void;
 export function __wbindgen_exn_store(a: number): void;
-export function wasm_bindgen__convert__closures__invoke2_mut__h7e4269d0a47ebfd2(a: number, b: number, c: number, d: number): void;
+export function wasm_bindgen__convert__closures__invoke2_mut__h5c63ef43e299fa25(a: number, b: number, c: number, d: number): void;
