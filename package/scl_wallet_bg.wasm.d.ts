@@ -35,7 +35,7 @@ export function sclwallet_get_tx_history(a: number, b: number, c: number): numbe
 export function sclwallet_airdrop(a: number, b: number, c: number, d: number): number;
 export function sclwallet_list_token_batch(a: number, b: number, c: number, d: number, e: number): number;
 export function sclwallet_place_bid_batch(a: number, b: number, c: number, d: number): number;
-export function sclwallet_accept_bid(a: number, b: number, c: number, d: number, e: number, f: number, g: number): number;
+export function sclwallet_accept_bid(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number): number;
 export function sclwallet_get_btc_tx_history(a: number): number;
 export function sclwallet_claim_dge(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number): number;
 export function sclwallet_claim_diminishing_airdrop(a: number, b: number, c: number, d: number, e: number, f: number): number;

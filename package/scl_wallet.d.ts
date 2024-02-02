@@ -203,9 +203,10 @@ export class SclWallet {
 * @param {string} unsigned_tx_hex_str
 * @param {string} fulfil_tx
 * @param {string} contract_id_str
+* @param {bigint} qty
 * @returns {Promise<string>}
 */
-  accept_bid(unsigned_tx_hex_str: string, fulfil_tx: string, contract_id_str: string): Promise<string>;
+  accept_bid(unsigned_tx_hex_str: string, fulfil_tx: string, contract_id_str: string, qty: bigint): Promise<string>;
 /**
 * @returns {Promise<string>}
 */
