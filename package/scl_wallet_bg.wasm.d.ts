@@ -14,6 +14,7 @@ export function sclwallet_delete_contract(a: number, b: number, c: number): numb
 export function sclwallet_get_contract(a: number, b: number, c: number): number;
 export function sclwallet_get_contracts(a: number): number;
 export function sclwallet_sync_scl_balances_new(a: number): number;
+export function sclwallet_sync_new_contracts(a: number): number;
 export function sclwallet_get_mnemonic(a: number, b: number, c: number): number;
 export function sclwallet_send_scl(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number): number;
 export function sclwallet_send_btc(a: number, b: number, c: number, d: number, e: number, f: number): number;

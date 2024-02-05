@@ -66,6 +66,10 @@ export class SclWallet {
 */
   sync_scl_balances_new(): Promise<string>;
 /**
+* @returns {Promise<string>}
+*/
+  sync_new_contracts(): Promise<string>;
+/**
 * @param {string} password
 * @returns {Promise<string>}
 */
