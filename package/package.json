@@ -1,6 +1,6 @@
 {
   "name": "@dark-fusion-protocol/scl-wallet",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SCL NPM Package",
   "main": "scl_wallet.js",
   "type": "module",

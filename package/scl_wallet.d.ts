@@ -22,6 +22,14 @@ export class SclWallet {
   generate_wallet(instance_name: string, password: string, seedphrase: string): Promise<string>;
 /**
 * @param {string} instance_name
+* @param {string} public_address
+* @param {string} network
+* @param {string} esplora_url
+* @returns {Promise<string>}
+*/
+  init_from_pubaddr(instance_name: string, public_address: string, network: string, esplora_url: string): Promise<string>;
+/**
+* @param {string} instance_name
 * @param {string} password
 * @param {string} network
 * @param {string} esplora_url
@@ -297,4 +305,69 @@ export class SclWallet {
 * @returns {boolean}
 */
   is_address(address: string): boolean;
+/**
+* @returns {string}
+*/
+  create_custom_tx(): string;
+/**
+* @param {string} unsigned_tx
+* @returns {string}
+*/
+  convert_to_psbt(unsigned_tx: string): string;
+/**
+* @param {string} addressv_str
+* @param {string} scl_amount_str
+* @param {string} contract_id_str
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_send_scl_unsigned(addressv_str: string, scl_amount_str: string, contract_id_str: string, fee_64: bigint): string;
+/**
+* @param {string} btc_address_str
+* @param {string} amount_sats_str
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_send_btc_unsigned(btc_address_str: string, amount_sats_str: string, fee_64: bigint): string;
+/**
+* @param {string} ticker
+* @param {string} max_supply
+* @param {string} decimals
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_mint_scl01_unsigned(ticker: string, max_supply: string, decimals: string, fee_64: bigint): string;
+/**
+* @param {string} list_order_json
+* @param {string} fee_estimate
+* @returns {string}
+*/
+  build_list_token_unsigned(list_order_json: string, fee_estimate: string): string;
+/**
+* @param {string} bid_order_json
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_place_bid_unsigned(bid_order_json: string, fee_64: bigint): string;
+/**
+* @param {string} bid_utxo
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_cancel_bid_unsigned(bid_utxo: string, fee_64: bigint): string;
+/**
+* @param {string} listing_utxo
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_cancel_listing_unsigned(listing_utxo: string, fee_64: bigint): string;
+/**
+* @param {string} addressv_str
+* @param {string} scl_amount_str
+* @param {string} contract_id_str
+* @param {string} duration_str
+* @param {bigint} fee_64
+* @returns {string}
+*/
+  build_drip_scl_unsigned(addressv_str: string, scl_amount_str: string, contract_id_str: string, duration_str: string, fee_64: bigint): string;
 }
